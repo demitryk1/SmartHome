@@ -42,7 +42,7 @@ Here is an image of the dashboard for clarification:
 - Remove the board from the button housing
 - Attach your USB-serial converter to the pins shown on the pinout image above (VCC, GND, TXD, RXD).
     Note: you may have to reverse the TXD and RXD pins depending on the converter.
-- Short the two pads labeled bootloader
+- Short the two pads labeled bootloader in the pinout image above
 - Download the ESP_Home_Builder_iflo.yaml file
 - Open ESPHome Builder in Home Assistant, create a new device > advanced set up options > import from file, select the downloaded yaml 
 - Save
