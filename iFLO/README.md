@@ -20,6 +20,7 @@ Here is everything that I traced out.
      -- WIFI LED = Solid when connected, Blinking when not connected  
      -- Battery LED = On when 20% or less  
      -- Bottle LED = On if "remaining dispense" count is 0 or bottle is removed
+  
   Note: i may have made the battery life worse...but we'll see
 
 Here is an image of the dashboard for clarification:
