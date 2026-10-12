@@ -19,7 +19,7 @@ Here is everything that I traced out.
      -- Cloud LED = Solid when one and will blink when running a script (dispense or reset dispense count)  
      -- WIFI LED = Solid when connected, Blinking when not connected  
      -- Battery LED = On when 20% or less  
-     -- Bottle LED = On if dispense left count is  or bottle is removed   
+     -- Bottle LED = On if "remaining dispense" count is 0 or bottle is removed   
 
 Here is an image of the dashboard for clarification:
 
@@ -42,6 +42,12 @@ Here is an image of the dashboard for clarification:
 - Attach your USB-serial converter to the pins shown on the pinout image above (VCC, GND, TXD, RXD).
     Note: you may have to reverse the TXD and RXD pins depending on the converter.
 - Short the two pads labeled bootloader
+- Download the ESP_Home_Builder_iflo.yaml file
+- Open ESPHome Builder in Home Assistant, create a new device > advanced set up options > import from file, select the downloaded yaml 
+- Save
+- Plug the USB-Serial Converter into the computer
+- Wait about 30 Seconds and remove the boot loader short
+- Install!
 
 
 I've done 2 of these now, I soldered one and i used some helping hands on the other. i found the helping hands to be cleaner.
