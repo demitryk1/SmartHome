@@ -17,9 +17,7 @@ Here is everything that I traced out.
 
 Here is an image of the dashboard for clarification:
 
-![Pinout.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Dashboard.png?raw=true) 
-
-
+![Dashboard.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Dashboard.png?raw=true) 
 
 
 ### What You Need ###  
@@ -27,12 +25,19 @@ Here is an image of the dashboard for clarification:
 - USB_Serial Converter, I used a SH-U09BL_CP2102N
 - Something conductive to short the boot pin to ground
 - a way to interface to the pins to flash the board, solder some wire or use a helping hands setup.
-   
-  
-  
- 
-  
-NOTE: kdsflkd.
+- the bin or the yaml file
 
+### Instructions - ESP32Home Builder ###
+- Remove the hose from the unit
+- Remove the two screws from the bottom
+- Disconnect the 4 plugs from the board, they are color coded so do worry about documenting what went where
+- Remove the two screws holding the board housing in place, press the front button in to clear the casing.
+- Remove the board from the button housing
+- Attach your USB-serial converter to the pins shown on the pinout image above (VCC, GND, TXD, RXD).
+    Note: you may have to reverse the TXD and RXD pins depending on the converter.
+I've done 2 of these now, I soldered one and i used some helping hands on the other
+
+Helping Hands:
+![Helping_Hands.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Dashboard.png?raw=true) 
 
 
