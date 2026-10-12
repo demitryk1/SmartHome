@@ -14,6 +14,12 @@ Here is everything that I traced out.
 - Graphical Web Interface
 - You can set the dispense amount; 3, 6, 9, or 12 floz. this will automatically update the dispenses left.
 - You can set the Dispense schedule; every 7, 14, 30 days, on the 1st of the moth, or the 1st and the 15th of the month
+- The front button operation: hold 1 - 5 seconds it will dispense, hold for 10 seconds and it will reset the dispenses left
+- LED Operation:
+      Cloud LED = Solid when one and will blink when running a script (dispense or reset dispense count)
+      WIFI LED = Solid when connected, Blinking when not connected
+      Battery LED = On when 20% or less
+      Bottle LED = On if dispense left count is  or bottle is removed 
 
 Here is an image of the dashboard for clarification:
 
@@ -31,13 +37,19 @@ Here is an image of the dashboard for clarification:
 - Remove the hose from the unit
 - Remove the two screws from the bottom
 - Disconnect the 4 plugs from the board, they are color coded so do worry about documenting what went where
-- Remove the two screws holding the board housing in place, press the front button in to clear the casing.
+- Remove the board housing by removing the two screws holding the board housing in place, press the front button in to clear the casing.
 - Remove the board from the button housing
 - Attach your USB-serial converter to the pins shown on the pinout image above (VCC, GND, TXD, RXD).
     Note: you may have to reverse the TXD and RXD pins depending on the converter.
-I've done 2 of these now, I soldered one and i used some helping hands on the other
+- Short the two pads labeled bootloader
+
+
+I've done 2 of these now, I soldered one and i used some helping hands on the other. i found the helping hands to be cleaner.
 
 Helping Hands:
 ![Helping_Hands.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Helping_Hands.png?raw=true) 
+
+
+
 
 
