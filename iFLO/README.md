@@ -13,7 +13,7 @@ Here is everything that I traced out.
 - You can reuse the bottles with your own cleaner
 - Graphical Web Interface
 - You can set the dispense amount; 3, 6, 9, or 12 floz. this will automatically update the dispenses left.
-- You can set the Dispense schedule; every 7, 14, 30 days, on the 1st of the moth, or the 1st and the 15th of the month
+- You can set the Dispense schedule; every 7, 14, or 30 days | on the 1st of the moth | the 1st and the 15th of the month
 - The front button operation: hold 1 - 5 seconds it will dispense, hold for 10 seconds and it will reset the dispenses left
 - LED Operation:  
      -- Cloud LED = On when the unit is on and will blink when running a script (dispense or reset dispense count)  
