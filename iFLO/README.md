@@ -38,6 +38,6 @@ Here is an image of the dashboard for clarification:
 I've done 2 of these now, I soldered one and i used some helping hands on the other
 
 Helping Hands:
-![Helping_Hands.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Dashboard.png?raw=true) 
+![Helping_Hands.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Helping_Hands.png?raw=true) 
 
 
