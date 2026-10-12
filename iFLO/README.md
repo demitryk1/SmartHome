@@ -16,7 +16,7 @@ Here is everything that I traced out.
 - You can set the Dispense schedule; every 7, 14, 30 days, on the 1st of the moth, or the 1st and the 15th of the month
 
 Here is an image of the dashboard for clarification:
-![Pinout.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Pinout.png?raw=true) 
+![Pinout.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Dashboard.png?raw=true) 
 
 
 
