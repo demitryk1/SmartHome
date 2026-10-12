@@ -23,7 +23,8 @@ Here is everything that I traced out.
 
   Note: i may have made the battery life worse...but we'll see  
 
-Note:  Webpage username: iflo    Password: iflo1234
+Webpage Username: iflo       
+Webpage Password: iflo1234    
 
 Here is an image of the dashboard for clarification:
 
