@@ -16,10 +16,11 @@ Here is everything that I traced out.
 - You can set the Dispense schedule; every 7, 14, 30 days, on the 1st of the moth, or the 1st and the 15th of the month
 - The front button operation: hold 1 - 5 seconds it will dispense, hold for 10 seconds and it will reset the dispenses left
 - LED Operation:  
-     -- Cloud LED = Solid when one and will blink when running a script (dispense or reset dispense count)  
+     -- Cloud LED = On when the unit is on and will blink when running a script (dispense or reset dispense count)  
      -- WIFI LED = Solid when connected, Blinking when not connected  
      -- Battery LED = On when 20% or less  
-     -- Bottle LED = On if "remaining dispense" count is 0 or bottle is removed   
+     -- Bottle LED = On if "remaining dispense" count is 0 or bottle is removed
+  Note: i may have made the battery life worse...but we'll see
 
 Here is an image of the dashboard for clarification:
 
