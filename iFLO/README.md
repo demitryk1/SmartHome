@@ -7,6 +7,8 @@ I got tired of the iFLO miscounting my dispenses and leaving me with bottles sti
 Here is everything that I traced out.  
 ![Pinout.png](https://github.com/demitryk1/SmartHome/blob/main/iFLO/Pinout.png?raw=true) 
 
+Note: batteries only last 2 days. I don't have any sort of sleep built in. I hard wired mine to be plugged in.
+
 
 ### How this differs from the original firmware ###
 - No more cloud
@@ -21,7 +23,7 @@ Here is everything that I traced out.
      -- Battery LED = On when 20% or less  
      -- Bottle LED = On if "remaining dispense" count is 0 or bottle is removed
 
-  Note: i may have made the battery life worse...but we'll see  
+    
 
 Webpage Username: iflo       
 Webpage Password: iflo1234    
